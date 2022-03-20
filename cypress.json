@@ -1,0 +1,10 @@
+{
+  "chromeWebSecurity": true,
+  "viewportWidth": 1400,
+  "viewportHeight": 800,
+  "experimentalStudio": true,
+  "experimentalSessionSupport":true,
+  "testFiles":[
+    "**/frontend/login.feature"
+  ]
+}
