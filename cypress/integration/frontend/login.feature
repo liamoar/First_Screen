@@ -54,9 +54,9 @@ Feature: Check the login functionality
         And I click Continue with Email button
         Then I type "avishr44+21@gmail.com" in email input section
         And I verify the next button is enabled
-#And I click Next Button
-#When I hover and click cross icon to close the popup
-#Then Navbar login button is changed to user icon
+        #And I click Next Button
+       #When I hover and click cross icon to close the popup
+       #Then Navbar login button is changed to user icon
 
 
 

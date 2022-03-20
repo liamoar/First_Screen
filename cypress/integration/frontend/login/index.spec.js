@@ -5,7 +5,8 @@ import * as loginPageObj from '../../../pageObject/LoginPageObj'
 const landingP = new LandingPage
 const loginP = new LoginPage
 
-Given("I visit the website {string}",(url)=>{
+Given("I visit the website",()=>{
+    const url = Cypress.env("url")
     cy.visit(url)
 })
 
